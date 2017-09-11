@@ -21,7 +21,7 @@ const random = (len = 16) => {
  */
 export default class ZmxyClient {
   version = '1.0'; //不能更改
-  url = 'https://zmopenapi.zmxy.com.cn/openapi.do';  //没有测试环境，无法更改
+  url = 'https://zmopenapi.zmxy.com.cn/openapi.do'; //没有测试环境，无法更改
   charset = 'UTF-8';
   platform = 'zmop'; //不能更改，更改后会报 ZMOP.invalid_platform_param
   appId = null; //芝麻App ID
